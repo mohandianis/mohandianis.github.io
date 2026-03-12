@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Your Name</h2>
+            <p>AI and Data Science Student</p>
+            <button id="view-resume">View My Resume</button>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </footer>
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="resume.pdf" width="100%" height="600px"></iframe>
+            <a href="resume.pdf" download class="download-btn">Download Resume</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
