@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Portfolio - Mohandi Anis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Player Profile -->
+        <section id="player-profile" class="panel">
+            <h1>Player Profile</h1>
+            <div class="profile-card">
+                <div class="character-info">
+                    <h2>Mohandi Anis</h2>
+                    <p class="title">AI & Data Science Student</p>
+                    <p class="class">Class: AI Engineer</p>
+                    <p class="level">Level: Graduate Student</p>
+                    <p class="tagline">Building intelligent systems to solve real-world problems</p>
+                </div>
+                <div class="profile-buttons">
+                    <button id="view-inventory">View Inventory (Resume)</button>
+                    <button id="view-quest-log">View Quest Log</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Character Lore -->
+        <section id="character-lore" class="panel">
+            <h1>Character Lore</h1>
+            <div class="lore-text">
+                <p>In the vast digital realms of data and algorithms, I embarked on a quest to master the arcane arts of Artificial Intelligence and Machine Learning. From the humble beginnings of Python scripting to the complex sorcery of neural networks, my journey has been one of relentless pursuit of knowledge and innovation.</p>
+                <p>My interests lie in harnessing the power of AI to tackle real-world challenges, from predicting energy consumption patterns to enabling machines to see and understand the world through computer vision. Join me as I continue this epic adventure in the ever-evolving landscape of technology.</p>
+            </div>
+        </section>
+
+        <!-- Skill Tree -->
+        <section id="skill-tree" class="panel">
+            <h1>Skill Tree</h1>
+            <div class="skill-nodes">
+                <div class="skill-node active">
+                    <div class="skill-icon">ML</div>
+                    <p>Machine Learning</p>
+                </div>
+                <div class="skill-connector"></div>
+                <div class="skill-node active">
+                    <div class="skill-icon">DL</div>
+                    <p>Deep Learning</p>
+                </div>
+                <div class="skill-connector"></div>
+                <div class="skill-node active">
+                    <div class="skill-icon">EF</div>
+                    <p>Energy Forecasting</p>
+                </div>
+                <div class="skill-connector"></div>
+                <div class="skill-node active">
+                    <div class="skill-icon">CV</div>
+                    <p>Computer Vision</p>
+                </div>
+                <div class="skill-connector"></div>
+                <div class="skill-node active">
+                    <div class="skill-icon">SC</div>
+                    <p>Smart Cities</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quest Log -->
+        <section id="quest-log" class="panel">
+            <h1>Quest Log</h1>
+            <div class="quest-cards">
+                <div class="quest-card">
+                    <h3>Electricity Consumption Forecasting Model</h3>
+                    <p>Developed a machine learning model to predict electricity consumption patterns using time series analysis and neural networks.</p>
+                    <a href="https://github.com/mohandianis" target="_blank" class="quest-link">View Repository</a>
+                </div>
+                <div class="quest-card">
+                    <h3>Chessboard Image Segmentation</h3>
+                    <p>Implemented computer vision techniques to detect and segment chessboard squares from images using OpenCV and image processing algorithms.</p>
+                    <a href="https://github.com/mohandianis" target="_blank" class="quest-link">View Repository</a>
+                </div>
+                <div class="quest-card">
+                    <h3>Data Analysis Pipelines</h3>
+                    <p>Built robust data processing pipelines for cleaning, transforming, and analyzing large datasets using Python and pandas.</p>
+                    <a href="https://github.com/mohandianis" target="_blank" class="quest-link">View Repository</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Attributes -->
+        <section id="attributes" class="panel">
+            <h1>Attributes</h1>
+            <div class="attribute-bars">
+                <div class="attribute">
+                    <span class="attr-name">Python</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                    <span class="attr-value">90</span>
+                </div>
+                <div class="attribute">
+                    <span class="attr-name">Machine Learning</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%;"></div>
+                    </div>
+                    <span class="attr-value">85</span>
+                </div>
+                <div class="attribute">
+                    <span class="attr-name">Data Analysis</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 88%;"></div>
+                    </div>
+                    <span class="attr-value">88</span>
+                </div>
+                <div class="attribute">
+                    <span class="attr-name">Computer Vision</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                    <span class="attr-value">80</span>
+                </div>
+                <div class="attribute">
+                    <span class="attr-name">Research</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 82%;"></div>
+                    </div>
+                    <span class="attr-value">82</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inventory -->
+        <section id="inventory" class="panel">
+            <h1>Inventory</h1>
+            <div class="inventory-item">
+                <div class="item-icon">📄</div>
+                <div class="item-details">
+                    <h3>Curriculum Vitae</h3>
+                    <p>Type: Document</p>
+                    <p>Rarity: Legendary</p>
+                </div>
+                <div class="item-actions">
+                    <button id="view-resume">View</button>
+                    <a href="resume.pdf" download class="download-btn">Download</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication Terminal -->
+        <section id="communication-terminal" class="panel">
+            <h1>Communication Terminal</h1>
+            <div class="terminal">
+                <p>> Establishing connection...</p>
+                <p>> Contact channels available:</p>
+                <div class="terminal-buttons">
+                    <a href="https://github.com/mohandianis" target="_blank" class="terminal-btn">GitHub</a>
+                    <a href="https://linkedin.com/in/anis-abdeldjalil-mohandi/" target="_blank" class="terminal-btn">LinkedIn</a>
+                    <a href="mailto:mohandianisabdeldjalil@gmail.com" class="terminal-btn">Email</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="resume.pdf" width="100%" height="600px"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
